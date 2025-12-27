@@ -1,7 +1,7 @@
 # House-Price-Prediction
 California House Price Prediction using Machine Learning
 
-Project Overview
+**Project Overview**
 
 This project implements an end-to-end machine learning pipeline to predict median house prices in California using socioeconomic and geographic features. The goal is to compare a baseline linear model with a non-linear ensemble model and analyze their performance on real-world housing data.
 
