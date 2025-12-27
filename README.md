@@ -5,7 +5,7 @@ California House Price Prediction using Machine Learning
 
 This project implements an end-to-end machine learning pipeline to predict median house prices in California using socioeconomic and geographic features. The goal is to compare a baseline linear model with a non-linear ensemble model and analyze their performance on real-world housing data.
 
-Dataset
+**Dataset**
 
 Source: California Housing Dataset (CSV version)
 
@@ -13,7 +13,7 @@ Records: ~20,000 housing blocks
 
 Target Variable: median_house_value
 
-Features Include:
+**Features Include:**
 
 Median income
 
@@ -27,11 +27,11 @@ Latitude & longitude
 
 Ocean proximity (categorical)
 
-Problem Statement
+**Problem Statement**
 
 Predict the median house value for a given region based on demographic and geographic features, and evaluate how different machine learning models perform on this regression task.
 
-Tools & Technologies
+**Tools & Technologies**
 
 Programming Language: Python
 
@@ -43,7 +43,7 @@ Matplotlib, Seaborn
 
 Scikit-learn
 
-Methodology
+**Methodology**
 1️⃣ Data Preprocessing
 
 Removed missing values
@@ -72,13 +72,13 @@ RMSE (Root Mean Squared Error)
 
 R² Score
 
-Results
+**Results**
 
 Model	RMSE ($)	R² Score
 Linear Regression	69,298	0.649
 Random Forest	48,768	0.826
 
-Key Observations
+**Key Observations**
 
 Random Forest reduced prediction error by ~30% compared to Linear Regression.
 
@@ -86,7 +86,7 @@ The ensemble model explained over 82% of the variance in housing prices.
 
 Median income and geographic location were the most influential features.
 
-Feature Importance
+**Feature Importance**
 
 Feature importance analysis using Random Forest revealed:
 
@@ -98,13 +98,6 @@ Ocean proximity significantly influencing housing prices
 
 This improves model interpretability and provides actionable insights.
 
-📁 Project Structure
-house-price-prediction/
-├── california_housing.csv
-├── Housing_Price_Prediction.ipynb
-├── predictions.csv
-└── README.md
-
-Conclusion
+**Conclusion**
 
 This project demonstrates a complete machine learning workflow, from data preprocessing to model evaluation and interpretation. The results highlight the importance of non-linear models when dealing with complex real-world datasets such as housing prices.
